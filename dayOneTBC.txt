@@ -1,0 +1,36 @@
+Day One- by the end of the first day:
+1. sketch out the character class
+class Druid(something):
+	def __init__(Druid):
+		all stats here (name, HP, hitChance/accuracy, maxDamage(points in single hit), armor (positive or negative/cursed))
+
+class deathKnight(something):
+	def__init__(deathKnight):
+		all stats here
+
+2. indicate all the hidden attributes
+Druid
+HP: 35, Accuracy: 70, maxDamage: 5, armor: 0
+
+deathKing
+HP: 30, Accuracy: 30, maxDamage: 7, armor: 5
+
+3. consider properties for each attribute
+@hpHealer, @accuracyChanger, @moreLessDamage @moreLessArmor
+
+4. consider limits for each property (suggested above)
+HP: no higher than 35, when in negative that character loses
+Accuracy: 20-80
+maxDamage: 1-10
+armor: -5-5 (negative armor is cursed armor)
+
+5. Write the initializer - consider using named parameters
+
+
+6. Write least basic (no filter) versions of each property
+
+7. Design and write the printStats() method
+
+8. In main, instantiate a class and print its stats
+
+9. stretch goal - implement filters in properties as needed
