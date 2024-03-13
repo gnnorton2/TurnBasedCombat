@@ -1,0 +1,25 @@
+	if random number is <= druidAccuracy:
+		getDruidDamage = get random number between 1 and 5
+		druidDamage = subtract lichkingarmor from getDruidDamage
+		if druidDamage < 0
+			druidDamage == 0
+		subtract druidDamage from lichKingHP
+		print("The Lich King takes {druidDamage} from Malfurion!")
+			if lichKingHP < 0:
+				print("Congratulations, Malfurion the Druid. You have successfully defeated the Lich King. You have grown wise from the ways of battle.")
+	
+	if random number is <= lichKingAccuracy:
+		getLichKingDamage = get random number between 1 and 7
+		lichKingDamage = subtract druid armor from getLichKingDamage 
+		if lichKingDamage < 0:
+			lichKingDamage == 0
+				
+		subtract lichKingDamage from DruidHP
+		print("Malfurion takes {LichKingDamage} from the Lich King!")
+		if druidHP < 0:
+			print "The forest cries for its protector. You have lost and the forest has died."
+		
+	
+		
+
+
