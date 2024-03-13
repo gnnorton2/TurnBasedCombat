@@ -29,8 +29,8 @@ class Character(object):
 	def printStats(self):
 		print(f"""
 {self.name}
-		Hit Points: {self.hitPoints}
-		Hit Chance: {self.hitChance}
+		HP: {self.hitPoints}
+		Accuracy: {self.hitChance}
 		Max Damage: {self.maxDamage}
 		Armor: {self.armor}
 		""")
