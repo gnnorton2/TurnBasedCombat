@@ -34,6 +34,18 @@ class Character(object):
 		Max Damage: {self.maxDamage}
 		Armor: {self.armor}
 		""")
+        
+    def hit(self, enemy):
+        if random.randint(1,100) < self.hitPerc:
+            print(f"{self.name} hits {enemy.name}...")
+            damage = random.randint(1, self.maxDamage)
+            print(f"for {damage} points of damage...")
+            damage -= enemy.armor
+            if damage < 0:
+                damage = 0
+            if enemy.armor > 0:
+                print(f" but {enemy.name} has {enemy.armor} of armor ")
+                
 
 	def testInt(self, value, min = 0, max = 100, default = 0):
 		#takes in value, checks to see if int between min and max
